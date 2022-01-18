@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {MenuItems} from "./menuItem"; 
+import 'navbar.css';
 
 class Navbar extends Component {
     render(){
@@ -24,5 +25,5 @@ class Navbar extends Component {
         )
     }
 }
-///20:45
+///20:45-22:30
 export default Navbar
