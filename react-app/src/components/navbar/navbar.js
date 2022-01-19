@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {MenuItems} from "./menuItem"; 
-import 'navbar.css';
+import './navbar.css';
 
 class Navbar extends Component {
     render(){
@@ -14,7 +14,7 @@ class Navbar extends Component {
                     {MenuItems.map((item,index)=> {
                         return(
                             <li key={index}>
-                                <a className={items.cName} href={item.url}>
+                                <a className={item.cName} href={item.url}>
                                     {item.title}
                                 </a>
                             </li>
